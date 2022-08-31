@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>My Selfie App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <center>
+        <h1>Aplicación web Collage</h1>
+        <hr>
+        <h4>Presione permitir tan pronto como aparezca la ventana emergente. Después de dar un comando de voz</h4>
+
+        <h3>Di "selfie" para tomar una selfie y formar un Collage</h3>
+
+        <button class="btn btn-lg btn-primary" onclick="start()">Iniciar</button>
+        <h4>Presiona el botón iniciar</h4>
+
+        <label>Tú cámara </label>
+        <div id="camera"></div>
+
+        <br>
+
+        <label>Tú selfie se vera en la pantalla </label>
+        <br>
+        <div id="resultRow">
+            <div id="result1" class="column">
+                <img src="pic1.jpg">
+            </div>
+
+            <div id="result2" class="column">
+                <img src="pic2.jpg">
+            </div>
+
+            <div id="result3" class="column">
+                <img src="pic3.jpg">
+            </div>
+        </div>
+    </center>
+
+    <div class="copy_right_footer">
+        Desarrollada por - Pollo
+      </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
